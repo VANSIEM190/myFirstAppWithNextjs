@@ -1,9 +1,7 @@
-import React from 'react'
+import UserDetail from '@/components/user-detail'
 
-type Props = {}
-
-const page = (props: Props) => {
-  return <div>page</div>
+const ProfileCard = () => {
+  return <UserDetail />
 }
 
-export default page
+export default ProfileCard

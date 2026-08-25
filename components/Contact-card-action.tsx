@@ -11,7 +11,8 @@ type Props = {
 const ContactCardAction = ({ contact }: Props) => {
   const handleDelete = (id: number) => {
     if (confirm(`Voulez-vous vraiment supprimer ${contact.nom} ?`)) {
-      contacts.filter((_, index) => id !== index)
+      const r = contacts.filter((_, index) => index !== id)
+      console.log(r)
     }
   }
 

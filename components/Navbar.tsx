@@ -18,7 +18,7 @@ const Navbar = () => {
             Accueil
           </Link>
           <Link
-            href="/contacts"
+            href="/contact"
             className="hover:text-gray-900 transition-colors"
           >
             Contacts
